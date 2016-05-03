@@ -1,6 +1,7 @@
-pre:
-  override:
-    - gem install puppet
-test:
-  override:
-    - make
+dependencies
+  pre:
+    override:
+      - gem install puppet
+  test:
+    override:
+      - make
