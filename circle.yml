@@ -1,0 +1,6 @@
+pre:
+  override:
+    - gem install puppet
+test:
+  override:
+    - make
