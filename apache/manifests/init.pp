@@ -7,10 +7,10 @@ class apache {
     }
     "centos", "rhel": {
       $packagename = "httpd"
-      $sercicename = "httpd"
+      $servicename = "httpd"
     }
     default: {
-      fail("Ubsupported OS: ${::operatingsystem}")
+      fail("Unsupported OS: ${::operatingsystem}")
     }
   }
 
